@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
-  image: 
+  image:
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -24,29 +24,9 @@ latest_posts:
   limit: 1 # leave blank to include all the blog posts
 ---
 
-Welcome to my blog. 
+Welcome to my blog.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div style="margin-top:500px;"></div>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
