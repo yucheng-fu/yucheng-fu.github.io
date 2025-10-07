@@ -1,0 +1,3 @@
+[submodule "football_analytics"]
+	path = football_analytics
+	url = https://github.com/yucheng-fu/football_analytics.git
