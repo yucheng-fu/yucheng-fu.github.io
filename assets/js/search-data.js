@@ -16,11 +16,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-mbappe-vs-messi-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-1",
+        },{id: "post-events-xg-and-possession-patterns-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-1",
         
-          title: "Mbappe vs Messi: An analysis of the most thrilling match at the 2018...",
+          title: "Events, xG and possession patterns: An analysis of the most thrilling match at...",
         
-        description: "Analysing the round of 16 match between France and Argetnina at the 2018 FIFA World Cup",
+        description: "Quantitative analysis of the round of 16 match between France and Argentina at the 2018 FIFA World Cup",
         section: "Posts",
         handler: () => {
           
