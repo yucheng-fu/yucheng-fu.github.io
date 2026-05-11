@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pitch</title>
+  <script type="module" crossorigin src="/football-analytics/assets/index-xoG7Pivx.js"></script>
+  <link rel="stylesheet" crossorigin href="/football-analytics/assets/index-DAq54RN5.css">
+</head>
+<body>
+
+  <div id="app-container">
+    <div id="pitch-container">
+      <svg id="canvas"></svg>
+    </div>
+
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <h3>Drawn Plays</h3>
+        <div class="probability-legend">
+          <div class="legend-title">Predicted Success Probability</div>
+          <div class="legend-bar" aria-hidden="true"></div>
+          <div class="legend-ticks">
+            <span>0.0</span>
+            <span>0.5</span>
+            <span>1.0</span>
+          </div>
+        </div>
+      </div>
+      <div id="menu-list-wrapper">
+        <div id="menu-list"></div>
+      </div>
+      <div id="pagination-controls"></div>
+
+      <div class="sidebar-footer">
+        <button id="btn-clear-all" class="btn-danger-outline">Clear All Plays</button>
+      </div>
+    </aside>
+
+    <div id="edit-panel">
+      <div class="panel-header">
+        <h4>Properties</h4>
+        <button id="close-panel">&times;</button>
+      </div>
+      
+      <div class="input-group">
+        <label>Height</label>
+        <select id="input-height">
+          <option value="Ground pass">Ground pass</option>
+          <option value="Low pass">Low pass</option>
+          <option value="High pass">High pass</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label>Body Part</label>
+        <select id="input-bodypart">
+          <option value="Right foot">Right foot</option>
+          <option value="Left foot">Left foot</option>
+          <option value="Head">Head</option>
+          <option value="Keeper arm">Keeper arm</option>
+          <option value="Drop kick">Drop kick</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <div class="input-group checkbox-group">
+        <input type="checkbox" id="input-pressure">
+        <label for="input-pressure">Under Pressure</label>
+      </div>
+
+      <div class="input-group">
+        <div class="label-row">
+          <label>Duration</label>
+          <span id="duration-val">1.0</span>
+        </div>
+        <input type="range" id="input-duration" min="0.5" max="10" step="0.1" value="1.0">
+      </div>
+
+      <div class="panel-footer">
+        <button id="btn-delete-active" class="btn-danger">Delete Pass</button>
+        <button id="btn-predict-active" class="btn-primary">Predict Pass Success</button>
+        <p id="prediction-status" class="status-text"></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
