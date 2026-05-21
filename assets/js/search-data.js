@@ -32,18 +32,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-passed-the-azure-data-engineer-associate-certification-from-microsoft",
-          title: 'I passed the Azure Data Engineer Associate certification from Microsoft 🚀',
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-i-passed-the-databricks-certified-machine-learning-associate-certification-putting-my-pyspark-skills-into-practice",
-          title: 'I passed the Databricks Certified Machine Learning Associate certification, putting my PySpark skills...',
-          description: "",
-          section: "News",},{id: "news-3rd-place-at-halfspace-x-dbu-hackathon",
-          title: '3rd place at Halfspace x DBU Hackathon',
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/halfspace-hackathon/";
-            },},{id: "projects-project-1",
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
