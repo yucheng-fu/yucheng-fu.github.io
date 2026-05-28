@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-events-xg-and-possession-patterns-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-1",
+        },{id: "post-quantifying-passes-using-gradient-boosted-tree-models-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-2",
+        
+          title: "Quantifying passes using gradient-boosted tree models: An analysis of the most thrilling match...",
+        
+        description: "Utilising machine learning to predict successful passes at the 2018 FIFA World Cup",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/wc2018-part2/";
+          
+        },
+      },{id: "post-events-xg-and-possession-patterns-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-1",
         
           title: "Events, xG and possession patterns: An analysis of the most thrilling match at...",
         
