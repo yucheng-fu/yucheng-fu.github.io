@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I passed the [Databricks](https://www.databricks.com/) Certified Machine Learning Associate certification, putting my PySpark skills into practice 🐍⚡
+I passed the [Databricks](https://www.databricks.com/) Certified Machine Learning Associate certification 🐍⚡
