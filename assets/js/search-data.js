@@ -16,7 +16,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-events-xg-and-possession-patterns-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-1",
+        },{id: "post-quantifying-pass-success-rates-using-gradient-boosted-tree-models-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-2",
+        
+          title: "Quantifying pass success rates using gradient-boosted tree models: An analysis of the most...",
+        
+        description: "Utilising the power of feature engineering and machine learning to predict successful passes at the 2018 FIFA World Cup",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/wc2018-part2/";
+          
+        },
+      },{id: "post-events-xg-and-possession-patterns-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-1",
         
           title: "Events, xG and possession patterns: An analysis of the most thrilling match at...",
         
@@ -35,8 +46,8 @@ ninja.data = [{
             },},{id: "news-i-passed-the-azure-data-engineer-associate-certification-from-microsoft",
           title: 'I passed the Azure Data Engineer Associate certification from Microsoft 🚀',
           description: "",
-          section: "News",},{id: "news-i-passed-the-databricks-certified-machine-learning-associate-certification-putting-my-pyspark-skills-into-practice",
-          title: 'I passed the Databricks Certified Machine Learning Associate certification, putting my PySpark skills...',
+          section: "News",},{id: "news-i-passed-the-databricks-certified-machine-learning-associate-certification",
+          title: 'I passed the Databricks Certified Machine Learning Associate certification 🐍⚡',
           description: "",
           section: "News",},{id: "news-3rd-place-at-halfspace-x-dbu-hackathon",
           title: '3rd place at Halfspace x DBU Hackathon',
