@@ -44,4 +44,4 @@ jobs:
         with:
           fail: true
           # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --exclude 'file://.*/football_analytics/figures/analysis-01/.*-(800|1400)\.webp$' --verbose --no-progress '_site/**/*.html'
+          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --exclude 'file://.*/football-analytics/figures/analysis-01/.*-(800|1400)\.webp$' --verbose --no-progress '_site/**/*.html'
