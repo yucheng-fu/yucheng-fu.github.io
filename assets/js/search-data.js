@@ -54,7 +54,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/halfspace-hackathon/";
-            },},{id: "projects-project-1",
+            },},{id: "news-pleased-to-announce-i-passed-the-databricks-certified-data-engineer-associate-certification",
+          title: 'Pleased to announce I passed the Databricks Certified Data Engineer Associate certification',
+          description: "",
+          section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
