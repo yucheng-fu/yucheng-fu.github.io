@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Please to announce I passed the Databricks Certified Data Engineer Associate [certification](https://credentials.databricks.com/89767bf4-6612-4115-a780-3f3f366abe23#acc.zqx1oKvH)
+Pleased to announce I passed the Databricks Certified Data Engineer Associate [certification](https://credentials.databricks.com/89767bf4-6612-4115-a780-3f3f366abe23#acc.zqx1oKvH)
