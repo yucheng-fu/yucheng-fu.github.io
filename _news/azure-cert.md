@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I passed the Azure Data Engineer Associate certification from Microsoft 🚀
+I passed the Azure Data Engineer Associate [certification](https://learn.microsoft.com/en-us/users/yuchengfu-2495/credentials/325d7331c7590409) from Microsoft 🚀
