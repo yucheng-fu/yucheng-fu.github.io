@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-predict",
+          title: "predict",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/predict/";
+          },
         },{id: "post-quantifying-pass-success-rates-using-gradient-boosted-tree-models-an-analysis-of-the-most-thrilling-match-at-the-2018-fifa-world-cup-part-2",
         
           title: "Quantifying pass success rates using gradient-boosted tree models: An analysis of the most...",
